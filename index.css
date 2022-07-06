@@ -9,20 +9,27 @@ body {
     margin-left: 500px;
     margin-top: 125px;
 }
+
 h1 {
     color: goldenrod;
     font-size: 320%;
+}
+
+p {
+    color: white;
+    font-size: 125%;
+}
+
+label {
+    color: white;
+    font-size: large;
+    font-style: oblique;
 }
 
 #message-el {
     font-style: oblique;
     color: white;
     font-size: 150%;
-}
-
-p {
-    color: white;
-    font-size: 125%;
 }
 
 #start-btn {
@@ -67,12 +74,6 @@ font-size: large;
     background-color: goldenrod;
     border-radius: 6px;
     margin-bottom: 8px;
-}
-
-label {
-    color: white;
-    font-size: large;
-    font-style: oblique;
 }
 
 #reset-btn {

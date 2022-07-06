@@ -1,3 +1,4 @@
+//refactorizar
 document.getElementById("game").hidden = true
 let cards = []
 let sum = 0
@@ -77,6 +78,14 @@ const renderGame = () => {
     player.money -= 25
     document.getElementById('reset-btn').hidden = false
     document.getElementById('playagain-btn').hidden = false
+  }
+  if(player.money === 0){
+    swal('Game Over', ' ', 'error', {button : false, timer: 4000})
+    document.getElementById('form').hidden = false
+    document.getElementById("game").hidden = true
+    player.name = ''
+    player.money = 0
+    
   }
   messageEl.textContent = message;
   playerEl.textContent = player.name + ': $' + player.money
