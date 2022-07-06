@@ -1,0 +1,101 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(blackjack.jpg);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    border: 15px solid rgb(218, 165, 32, .54);
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 125px;
+}
+h1 {
+    color: goldenrod;
+    font-size: 320%;
+}
+
+#message-el {
+    font-style: oblique;
+    color: white;
+    font-size: 150%;
+}
+
+p {
+    color: white;
+    font-size: 125%;
+}
+
+#start-btn {
+    padding: 10px;
+    border: none;
+    color: #016930;
+    font-size: larger;
+    font-weight: bold;
+    width: 175px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+#newcard-btn {
+    padding: 10px;
+    border: none;
+    color: #016930;
+    font-size: larger;
+    font-weight: bold;
+    width: 175px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#input {
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+#username-el{
+font-size: large;
+}
+
+#submit-btn {
+    padding: 10px;
+    border: none;
+    color: #016930;
+    font-size: larger;
+    font-weight: bold;
+    width: 175px;
+    background-color: goldenrod;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+label {
+    color: white;
+    font-size: large;
+    font-style: oblique;
+}
+
+#reset-btn {
+    padding: 10px;
+    border: none;
+    color: goldenrod;
+    font-size: larger;
+    font-weight: bold;
+    width: 175px;
+    background-color: red;
+    border-radius: 6px;
+    margin-bottom: 8px;
+
+}
+
+#playagain-btn{
+    padding: 10px;
+    border: none;
+    color: #016930;
+    font-size: larger;
+    font-weight: bold;
+    width: 175px;
+    background-color: goldenrod;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
