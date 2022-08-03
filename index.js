@@ -125,7 +125,6 @@ const reset = () => {
   })
   .then((willDelete) => {
     if (willDelete) {
-      console.log('asd')
       document.getElementById('form').hidden = false
       document.getElementById("game").hidden = true
       player.name = ''
